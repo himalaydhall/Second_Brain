@@ -1,23 +1,23 @@
 # Application & UI
-streamlit>=1.30.0
-python-dotenv>=1.0.0
-rich>=13.0.0
-httpx
+streamlit==1.55.0
+python-dotenv==1.2.2
+rich==14.3.3
+httpx==0.28.1
 
 # PDF Parsing
-PyMuPDF>=1.23.0
-pdfplumber>=0.11.0
+PyMuPDF==1.27.2.2
+pdfplumber==0.11.9
 
 # Vector DB
-chromadb>=0.4.0
+chromadb==1.5.5
 
 # LlamaIndex Core & Agent Workflows
-llama-index>=0.10.0
-llama-index-core>=0.10.0
+llama-index-core==0.14.19
+llama-index-workflows==2.17.1
 
-# LlamaIndex Integrations (Needed for your specific setup)
-llama-index-llms-groq
-llama-index-llms-ollama
-llama-index-embeddings-huggingface
-llama-index-vector-stores-chroma
-llama-parse
+# LlamaIndex Integrations 
+llama-index-llms-groq==0.3.2
+llama-index-llms-ollama==0.6.2
+llama-index-embeddings-huggingface==0.5.5
+llama-index-vector-stores-chroma==0.4.2
+llama-parse==0.6.94
