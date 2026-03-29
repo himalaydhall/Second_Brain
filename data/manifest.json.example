@@ -1,0 +1,26 @@
+{
+  "attention_is_all_you_need.pdf": {
+    "date_added": "2024-03",
+    "topics": ["transformers", "attention", "nlp", "deep-learning"],
+    "source": "arxiv",
+    "notes": "Foundational transformer paper by Vaswani et al."
+  },
+  "rag_survey_2024.pdf": {
+    "date_added": "2024-06",
+    "topics": ["rag", "retrieval", "llm", "knowledge-base"],
+    "source": "arxiv",
+    "notes": "Comprehensive survey of RAG techniques and benchmarks"
+  },
+  "ai_safety_alignment.pdf": {
+    "date_added": "2025-01",
+    "topics": ["ai-safety", "alignment", "ethics", "rlhf"],
+    "source": "book",
+    "notes": "Stuart Russell — Human Compatible"
+  },
+  "llm_hallucination_study.pdf": {
+    "date_added": "2025-06",
+    "topics": ["hallucination", "reliability", "llm", "evaluation"],
+    "source": "arxiv",
+    "notes": "Study on hallucination frequency across model families"
+  }
+}

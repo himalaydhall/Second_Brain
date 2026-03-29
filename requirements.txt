@@ -1,0 +1,35 @@
+# ─────────────────────────────────────────────────────────────────
+#  Second Brain – PDF Insight Surfer
+#  requirements.txt
+#  Install with: pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────
+
+# ── Core LlamaIndex ──────────────────────────────────────────────
+llama-index-core>=0.11.0
+llama-index-vector-stores-chroma>=0.2.0
+llama-index-embeddings-huggingface>=0.3.0   # free local embeddings (default)
+llama-index-llms-ollama>=0.3.0              # local LLM via Ollama
+llama-index-llms-gemini>=0.3.0              # Gemini API (optional)
+llama-index-question-gen-openai>=0.2.0      # sub-question decomposition engine
+
+# ── Vector Database ───────────────────────────────────────────────
+chromadb>=0.5.0
+
+# ── PDF Parsing ───────────────────────────────────────────────────
+pdfplumber>=0.11.0          # text-native PDFs (free, local)
+pymupdf>=1.24.0             # classification + fast text extract (fitz)
+llama-parse>=0.5.0          # scanned / complex PDFs  (requires API key – optional)
+
+# ── UI ────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+streamlit-chat>=0.1.1
+
+# ── Utilities ─────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+rich>=13.0.0                # pretty console output
+tqdm>=4.66.0                # progress bars
+nest-asyncio>=1.6.0         # run async in Jupyter / Streamlit safely
+
+# ── Optional: OpenAI (only if you prefer GPT-4o over Gemini/Ollama)
+# openai>=1.30.0
+# llama-index-llms-openai>=0.2.0

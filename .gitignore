@@ -1,0 +1,39 @@
+# Environment
+.env
+*.env
+
+# Vector DB (auto-generated — re-create with ingest.py)
+data/chroma_db/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Your actual notes (keep out of version control)
+data/your_notes_folder/*.pdf
+
+# Manifest (contains your personal metadata — back up separately)
+# data/manifest.json   ← uncomment if you want to exclude it
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/
