@@ -73,8 +73,8 @@ second_brain/
 ### Step 1 — Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/second-brain.git
-cd second-brain
+git clone https://github.com/himalaydhall/Second_Brain.git
+cd Second_Brain
 pip install -r requirements.txt
 ```
 
@@ -261,6 +261,4 @@ search_notes                sub_question_search      contradiction_search
 - [pdfplumber](https://github.com/jsvine/pdfplumber) — text PDF extraction
 - [PyMuPDF](https://pymupdf.readthedocs.io) — PDF classification and fast text extraction
 - [LlamaParse](https://cloud.llamaindex.ai) — scanned PDF parsing (optional)
-- [Streamlit](https://streamlit.io) — chat UI — Lightning-fast LLM Inference
-*   [ChromaDB](https://www.trychroma.com) — Local Vector Database
-*   [Streamlit](https://streamlit.io) — Chat Interface
+- [Streamlit](https://streamlit.io) — chat UI
